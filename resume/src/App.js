@@ -1,19 +1,17 @@
 import React from 'react';
 
 function App() {
-  const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = 'https://your-backend-url.com/download/sample_resume.pdf';
-    link.setAttribute('download', 'sample_resume.pdf');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownload = () => {
+    // Navigate browser to the download endpoint
+    window.location.href = 'http://localhost:5000/resume';
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
       <h2>Download Resume</h2>
-      <button onClick={downloadResume}>Download</button>
+      <button onClick={handleDownload} style={{ padding: '0.5rem 1rem', fontSize: '1rem' }}>
+        Download Resume
+      </button>
     </div>
   );
 }
