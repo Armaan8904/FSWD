@@ -1,15 +1,16 @@
+// App.js
 import React from 'react';
+import './App.css';
 
 function App() {
   const handleDownload = () => {
-    // Navigate browser to the download endpoint
     window.location.href = 'https://fswd-07fo.onrender.com/resume';
   };
 
   return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
+    <div className="container">
       <h2>Download Resume</h2>
-      <button onClick={handleDownload} style={{ padding: '0.5rem 1rem', fontSize: '1rem' }}>
+      <button onClick={handleDownload}>
         Download Resume
       </button>
     </div>
