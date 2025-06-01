@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   const handleDownload = () => {
     // Navigate browser to the download endpoint
-    window.location.href = 'http://localhost:5000/resume';
+    window.location.href = 'https://fswd-07fo.onrender.com/resume';
   };
 
   return (
