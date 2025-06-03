@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const handleDownload = () => {
-    window.location.href = 'https://fswd-724n.onrender.com';
+    window.location.href = 'https://fswd-724n.onrender.com/resume';
   };
 
   return (
