@@ -8,8 +8,8 @@ function App() {
   };
 
   return (
-    <h2>Full Stack Project</h2>
     <div className="container">
+    <h2>Full Stack Project</h2>
       <h2>Download Resume</h2>
       <button onClick={handleDownload}>
         Download Resume
