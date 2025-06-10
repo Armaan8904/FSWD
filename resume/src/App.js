@@ -8,7 +8,7 @@ function App() {
   };
 
   const handleDownload = () => {
-    window.location.href = 'https://fswd-07fo.onrender.com/resume';
+    window.location.href = 'https://fswd-724n.onrender.com/resume';
   };
 
   return (
